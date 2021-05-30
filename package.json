@@ -1,0 +1,13 @@
+{
+  "name": "nuxt-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format:all": "yarn run prettier --ignore-path .gitignore --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
